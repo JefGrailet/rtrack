@@ -1,4 +1,4 @@
-# RTrack, a traceroute extension to quantify traceroute illnesses
+# RTrack, a traceroute extension to discover routing anomalies
 
 *By Jean-François Grailet (last edited: June 10, 2017)*
 
