@@ -1,10 +1,10 @@
 # About Measurements/ folder
 
-*By Jean-François Grailet (last edited: June 10, 2017)*
+*By Jean-François Grailet (last edited: June 15, 2017)*
 
 ## Overview
 
-This folder contains measurements which were conducted from the PlanetLab testbed with `RTrack` v1.0. Each sub-folder is named after a target Autonomous System (or AS) and contains measurements for that particular AS, with a sub-folder per dataset, denoted by the date at which the measurements for this dataset were  started.
+This folder contains measurements which were conducted from the PlanetLab testbed with `RTrack` v1.0. Each sub-folder is named after a target Autonomous System (or AS) and contains measurements for that particular AS, with a sub-folder per dataset, denoted by the date at which the measurements for this dataset were  started. An additionnal subfolder, *Scripts/*, provides a few Python scripts one can use to parse the datasets and obtain various figures to study it.
 
 At the root of each AS sub-folder, you should also find a "\[AS number\].txt" file, which contains the IP prefixes which are fed to `RTrack` as the target prefixes of this AS.
 
