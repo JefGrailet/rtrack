@@ -98,7 +98,10 @@ if __name__ == "__main__":
                      color='#000000', 
                      linewidth=4, 
                      ecolor='#0000FF', 
-                     elinewidth=4)
+                     elinewidth=4, 
+                     linestyle='-', 
+                     fmt='o', 
+                     mew=5)
         
         plt.xticks(np.arange(1, len(means) + 1, 1), **hfont2)
         plt.yticks(np.arange(0, 110, 10), **hfont2)
