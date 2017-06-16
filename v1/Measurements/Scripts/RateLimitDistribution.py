@@ -84,7 +84,7 @@ if __name__ == "__main__":
         fig = plt.figure(figsize=(15,9))
         # Optional title
         # plt.title(keys[i], **hfont)
-        plt.ylim([0, 100])
+        plt.ylim([0, 105])
         plt.xlim([1, len(means)])
         
         sqrtMeans = np.sqrt(means)
@@ -101,7 +101,7 @@ if __name__ == "__main__":
                      elinewidth=4, 
                      linestyle='-', 
                      fmt='o', 
-                     mew=5)
+                     mew=10)
         
         plt.xticks(np.arange(1, len(means) + 1, 1), **hfont2)
         plt.yticks(np.arange(0, 110, 10), **hfont2)
