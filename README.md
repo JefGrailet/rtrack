@@ -1,6 +1,6 @@
 # RTrack, a traceroute extension to discover routing anomalies
 
-*By Jean-François Grailet (last edited: June 10, 2017)*
+*By Jean-François Grailet (last edited: Augustus 27, 2018)*
 
 ## Overview
 
@@ -8,9 +8,20 @@
 
 The name "`RTrack`" can denote several things, as the `R` can substitute for "**r**ate-limit", "**r**oute stretching" or "**r**oute cycling", while the "`Track`" simply recalls its purpose.
 
-## Version history (lattest version: v1.0)
+`RTrack` is exclusively available for Linux and IPv4. It also comes as provided as a 32-bit application, in order to ensure compatibility with all PlanetLab computers.
 
-`RTrack` is exclusively available for Linux.
+## About development
+
+**`RTrack` will no longer get major updates nor algorithmical changes. There won't be new datasets released in this repository as well.**
+
+Future updates of `RTrack` could include:
+
+* Various updates of the probing library (*src/common/*).
+* 64-bit version.
+
+These updates will be released in the *v1/* sub-repository.
+
+## Version history (lattest version: v1.0)
 
 * **`RTrack` v1.0:** this is the first version of the program made publicly available (in June 2017). It focuses on rate-limiting, route stretching and route cycling. However, it is currently only compatible with the IPv4 protocol.
 
@@ -28,7 +39,7 @@ Note that `TreeNET` itself is built on top of `ExploreNET`, a subnet discovery t
 
 ## Contact
 
-**E-mail address:** Jean-Francois.Grailet@ulg.ac.be
+**E-mail address:** Jean-Francois.Grailet@uliege.be
 
 **Personal website:** http://www.run.montefiore.ulg.ac.be/~grailet/
 
