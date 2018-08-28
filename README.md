@@ -1,6 +1,6 @@
 # RTrack, a traceroute extension to discover routing anomalies
 
-*By Jean-François Grailet (last edited: Augustus 27, 2018)*
+*By Jean-François Grailet (last edited: August 28, 2018)*
 
 ## Overview
 
@@ -12,11 +12,11 @@ The name "`RTrack`" can denote several things, as the `R` can substitute for "**
 
 ## About development
 
-**`RTrack` will no longer get major updates nor algorithmical changes. There won't be new datasets released in this repository as well.**
+**`RTrack` will no longer get major algorithmical changes. There won't be new datasets as well.**
 
 Future updates of `RTrack` could include:
 
-* Various updates of the probing library (*src/common/*).
+* Updates of the basic libraries (*src/common/* and *src/prober/*).
 * 64-bit version.
 
 These updates will be released in the *v1/* sub-repository.
