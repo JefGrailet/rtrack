@@ -1,6 +1,6 @@
 # RTrack, a traceroute extension to discover routing anomalies
 
-*By Jean-François Grailet (last edited: August 28, 2018)*
+*By Jean-François Grailet (last edited: October 14, 2019)*
 
 ## Overview
 
