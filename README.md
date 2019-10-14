@@ -14,12 +14,7 @@ The name "`RTrack`" can denote several things, as the `R` can substitute for "**
 
 **`RTrack` will no longer get major algorithmical changes. There won't be new datasets as well.**
 
-Future updates of `RTrack` could include:
-
-* Updates of the basic libraries (*src/common/* and *src/prober/*).
-* 64-bit version.
-
-These updates will be released in the *v1/* sub-repository.
+On a side note, since it needed to be compatible with old environments (e.g. 32-bit machines from the [PlanetLab testbed](https://planet-lab.eu/) running with Fedora 8), `RTrack` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. This said, after several campaigns run from PlanetLab towards all kinds of target networks, it is safe to assume `RTrack` is unlikely to crash or mismanage memory. It has been, on top of that, been extensively tested with `valgrind` on a local network.
 
 ## Version history (lattest version: v1.0)
 
